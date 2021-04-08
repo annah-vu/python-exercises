@@ -102,7 +102,8 @@ def isprime(num):
             if not (num % n == 0):
                 return false 
     else: 
-        return True 
+        return False
+    return True 
 
 
 
