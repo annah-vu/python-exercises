@@ -95,6 +95,15 @@ odd_negative_numbers = [number for number in numbers if number % 2 != 0 and numb
 # In it, return a list containing each number plus five. 
 numbers_plus_5 = [number + 5 for number in numbers]
 
+#Prime Number Bonus
+def isprime(num):
+    if num >=2:
+        for n in range(2,num):
+            if not (num % n == 0):
+                return false 
+    else: 
+        return True 
+
 
 
 #20 Python Data Structure Manipulation Exercises
@@ -108,7 +117,9 @@ numbers_plus_5 = [number + 5 for number in numbers]
 len([student for student in students if student['coffee_preference'] == 'light'])
 len([student for student in students if student['coffee_preference'] == 'medium'])
 len([student for student in students if student['coffee_preference'] == 'dark'])
-How many types of each pet are there?
+
+#How many types of each pet are there?
+
 How many grades does each student have? Do they all have the same number of grades?
 What is each student's grade average?
 How many pets does each student have?
