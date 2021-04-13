@@ -62,4 +62,6 @@ password != username
 username[0] != " " and username[-1] != " "
 password[0] != " " and password[-1] != " "
 
-
+password = "Jolie"
+username = "Jolien"
+len(password) >= 5 and password != username and password[0] != " " and password[-1] != " "
