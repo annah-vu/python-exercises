@@ -123,7 +123,20 @@ len([student for student in students if student['coffee_preference'] == 'dark'])
 
 How many grades does each student have? Do they all have the same number of grades?
 What is each student's grade average?
-How many pets does each student have?
+#How many pets does each student have?
+student = students[0]
+student["pets"]
+len(student["pets"])
+number_of_pets =  len(student["pets"])
+print(f{student['student']} has {number_of_pets} pet(s)")
+
+for student in students:
+    number_of_pets =  len(student["pets"])
+    print(f{student['student']} has {number_of_pets} pet(s)")   
+
+
+
+
 How many students are in web development? data science?
 What is the average number of pets for students in web development?
 What is the average pet age for students in data science?
